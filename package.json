@@ -1,0 +1,19 @@
+{
+  "name": "graphql-mongodb-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "graphql-yoga": "^1.18.3",
+    "mongoose": "^5.7.4",
+    "nodemon": "^1.19.3"
+  }
+}
